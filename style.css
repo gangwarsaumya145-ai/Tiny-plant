@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background-color: #e8f5e9;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: bold;
+    font-family: 'cursive';
+    color: #4f6351;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-size: 30px;
+    color: #4f6351;
+    font-family: 'cursive';
+    margin-bottom: 35px;
+}
+
+.plant-card {
+    background-color: white;
+    padding: 45px 25px;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+#plant {
+    font-size: 200px;
+    margin: 20px;
+    transition: transform 0.3s;
+}
+
+#plant:hover {
+    transform: scale(1.05);
+}
+
+#status {
+    font-size: 18px;
+    color: #4f6351;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+button {
+    border: none;
+    background-color: #c8e6c9;
+    color: #315b35;
+    padding: 18px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-family: cursive;
+    cursor: pointer;
+    box-shadow: 0 6px 15px rgba(76, 120, 80, 0.15);
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+button:hover {
+    transform: translateY(-4px);
+    background-color: #a5d6a7;
+}
